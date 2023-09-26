@@ -3,14 +3,47 @@
 <head>
     <style>
         body {
-            background-color: #333; /* Dark background color */
+            background-color: #222; /* Dark background color */
             color: #FFF; /* White text color */
-            font-family: Arial, sans-serif; /* Font family */
+            font-family: 'Gothic', Arial, sans-serif; /* Gothic font family */
             padding: 20px; /* Add some padding to the body */
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            background-color: #444; /* Darker background color for the navigation menu */
+            padding: 10px 0; /* Add padding to the top and bottom of the navigation menu */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove margin to align the menu to the left */
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFA500; /* Orange link color */
+            font-weight: bold;
+            padding: 5px 10px; /* Add padding to each link for the box effect */
+            background-color: #333; /* Dark background color for each link box */
+            border: 2px solid #FFA500; /* Add border to each link box */
+            border-radius: 5px; /* Rounded corners for link boxes */
+            transition: background-color 0.3s, color 0.3s; /* Smooth color transition on hover */
+        }
+
+        a:hover {
+            background-color: #FFA500; /* Change background color on hover */
+            color: #222; /* Change text color on hover */
         }
 
         h1 {
@@ -23,14 +56,23 @@
         }
 
         img {
-            max-width: 50%; /* Set the maximum width of the image to 50% of the container */
+            max-width: 30%; /* Set the maximum width of the image to 30% of the container */
             border: 4px solid #FFA500; /* Add an orange border to the image */
         }
     </style>
 </head>
 <body>
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="https://youtu.be/DZnFVxXv2II?si=tiEMixbNCEZTkCO4" target="_blank">How the Sackler Family Made Billions From OxyContin</a></li>
+            <li><a href="https://youtu.be/Mvh4o6x3-GQ?si=8MKNfFqZzt1NrZYm" target="_blank">Patrick Bet-David Deconstructs BlackRock's Influence and ESG Ratings</a></li>
+            <li><a href="https://youtu.be/5Tg2yaC4R80?si=4ROVEHOMVr3ID-U1" target="_blank">Francis Ngannou on Leaving the UFC, Signing Tyson Fury Fight, and Training with Mike Tyson</a></li>
+        </ul>
+    </nav>
+
     <h1>Hello World!</h1>
-    <p>My name is Alex Soto I'm a student at Dominican University. I love to play sports, specifically baseball and basketball. When I'm not playing sports, you can find me doing something tech-related since my major is informatics. I want to go into cybersecurity and be the founder of tech companies and do other investments such as real estate to secure my financial independence. I'm also into self-development and love helping others.</p>
+    <p>My name is Alex Soto. I'm a student at Dominican University. I love to play sports, specifically baseball and basketball. When I'm not playing sports, you can find me doing something tech-related since my major is informatics. I want to go into cybersecurity and be the founder of tech companies and do other investments such as real estate to secure my financial independence. I'm also into self-development and love helping others.</p>
     <img src="https://www.blucarrental.com/cdn/shop/products/2021MercedesAMGGT63SAMGSidee_1512x.jpg?v=1618993974" alt="Mercedes AMG GT63S">
 </body>
 </html>
