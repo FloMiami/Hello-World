@@ -5,3 +5,6 @@ build:
     copy: - cp . /app
 run:
   command: serve -s /app
+  environment:
+    PORT: ${PORT:8080}
+  port: ${PORT}
