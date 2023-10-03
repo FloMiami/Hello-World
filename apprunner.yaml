@@ -1,0 +1,7 @@
+version: 1.0
+runtime: static
+build:
+  commands:
+    copy: - cp . /app
+run:
+  command: serve -s /app
