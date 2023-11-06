@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="ccsExcersie05.css">
+  <title>Alex Soto's Personal Page</title>
+  <style>
+    /* Example of using classes and IDs */
+    .intro {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    #main-heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #009688;
+      text-align: center;
+    }
+
+    /* Basic design principles */
+    body {
+      background-color: #f2f2f2; /* Contrast */
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #009688;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .article-container {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .author-image {
+      width: 100%;
+      height: auto; /* Make the image flexible */
+      border-radius: 50%;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .author-info {
+      overflow: hidden; /* Clear float */
+    }
+
+    .author-name {
+      font-weight: bold;
+      color: #009688;
+    }
+
+    /* CSS media queries to account for different screen sizes */
+    @media (max-width: 768px) {
+      .author-image {
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .article-container {
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .author-name {
+        font-size: 18px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://medium.com/@AlexSoto_06" target="_blank">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 id="main-heading">Hello World!</h1>
+    <div class="article-container">
+      <img class="author-image" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H0Um4GOsS6vq_6AHxbo5Nw.jpeg" alt="Alexandro Soto">
+      <div class="author-info">
+        <p class="author-name">Alexandro Soto</p>
+        <p class="intro">I go to school at Dominican University in River Forest, IL majoring in Informatics...</p>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Alex Soto</p>
+  </footer>
+</body>
+</html>
